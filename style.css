@@ -1,0 +1,97 @@
+body{
+    font-family: 'Roboto Flex', sans-serif;
+}
+
+.container{
+    background-color: #1F2937;
+    display: flex;
+    margin: -10px;
+    padding: 15px;
+    padding-right: 21%;
+    padding-left: 21%;
+    align-items: center;
+}
+
+.container .logo{
+    flex:1 1 21%;
+    font-size: 24px;
+    color: #f9faf8;
+}
+
+.container .nav{
+    display: flex;
+    gap: 30px;
+    flex:1;
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.container .itemcolum{
+    Flex:1 1 auto;
+    padding-bottom: 7%;
+    padding-top: 7%;
+    padding-right: 10%;
+    color: #e5e7eb;
+}
+
+.container > div > h1{
+    font-weight:bolder;
+    font-size: 48px;
+    color: #f9faf8;
+    margin-bottom: 5px;
+}
+
+.container > div > p{
+    margin-top: 5px;
+}
+
+.container .itemcolum > a > button{
+    background-color: #3882F6;
+    border-radius: 7px;
+    border-style: none;
+    color: #f9faf8;
+    font-weight:bolder;
+    padding: 10px 35px 10px 35px;
+
+}
+.container .placeholder{
+    Flex:1 1 87%;
+    align-items: center;
+
+}
+
+.container.white{
+    display: flex;
+    background-color:#ffffff ;
+}
+
+.container > h1{
+    font-size: 36px;
+    font-weight:bolder;
+    color: #1F2937;
+    text-align: center;
+}
+
+
+.container.white .card{
+    flex:1 1 auto;
+    flex-wrap: nowrap;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin:50px;
+    /*border-radius: 20px;
+    border: solid #3882f6;*/
+}
+
+.container.white .card > p{
+
+    align-self: center;
+    text-align: center;
+}
+.container.white .card > img{
+    border-radius: 20px;
+    border: solid #3882f6;
+    width: 170px;
+    height: 160px;
+}
